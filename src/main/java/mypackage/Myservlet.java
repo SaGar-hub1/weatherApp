@@ -44,7 +44,7 @@ public class Myservlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String city = request.getParameter("City");
-		String apiKey = " ADd your open weather API Key";
+		String apiKey = " Add your open weather API Key";
 		// Create the URL for the OpenWeatherMap API request
 		String apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey;
 		// doGet(request, response);
